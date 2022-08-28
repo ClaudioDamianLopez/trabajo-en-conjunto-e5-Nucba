@@ -36,8 +36,9 @@ header {
     display: flex;
     list-style: none;
     width: 100%;  
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
+    gap: 50px;
 }
 
 
