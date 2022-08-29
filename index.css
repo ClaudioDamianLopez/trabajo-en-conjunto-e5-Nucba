@@ -77,12 +77,19 @@ h1 {
     left: 30px;
 }
 
-#Botn {
+#placeholder {
     width: 398px;
     height: 30px;
     position: relative;
     top: 200px;
     left: 30px;
+    opacity: 0.1;   
+    border: 1px solid #F4F4F4;
+    box-shadow: 12px 26px 50px rgba(90, 108, 234, 0.07);
+    border-radius: 10px;
+}
+#placeholder::placeholder{
+    font: var(--fa-font-solid);
 }
 
 #bus {
