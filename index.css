@@ -1,13 +1,14 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: #252525;
+    
 }
 
 body {
     display: flex;
     width: 100%;
     height: 100%;
+    background-color: #252525;
 }
 
 header {
@@ -41,5 +42,28 @@ header {
     gap: 50px;
 }
 
+.header-buscador {
+    display: flex;
+}
 
+.Buscador {
+    width: 50%;
+}
+
+.porciones-de-pizza-img {
+    width: 50%;
+    height: 100px;
+    position: relative;
+}
+
+.porcion-1 {
+    position: absolute;
+    top: 120px;
+}
+
+.porcion-2 {
+    position: relative;
+    top: 0;
+    left: 130px;
+}
 
