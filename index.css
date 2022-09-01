@@ -77,6 +77,21 @@ h1 {
   left: 30px;
 }
 
+h2 {
+  font-size: 1.7em;
+  position: relative;
+  top: 150px;
+  left: 30px;
+}
+
+#header-p {
+  font-size: 1em;
+  position: relative;
+  top: 175px;
+  left: 30px;
+  
+}
+
 #placeholder {
   width: 398px;
   height: 30px;
