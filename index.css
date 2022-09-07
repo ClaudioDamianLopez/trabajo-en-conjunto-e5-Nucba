@@ -52,12 +52,12 @@ header {
 }
 
 .Buscador {
-  width: 50%;
+  width: 100%;
+  position: relative;
 }
 
 .porciones-de-pizza-img {
-  width: 50%;
-  *height: 100px;
+  width: 100%;
   position: relative;
 }
 
@@ -92,7 +92,6 @@ h2 {
   position: relative;
   top: 175px;
   left: 30px;
-  
 }
 
 #placeholder {
@@ -149,7 +148,7 @@ h2 {
   *margin: auto;
   padding: 10px;
   gap: 15px;
-  border-radius: 10px;  
+  border-radius: 10px;
 }
 
 .recomendacion-descripcion h3 {
@@ -172,4 +171,38 @@ h2 {
   border-style: none;
   color: #f4f4f4;
   background: linear-gradient(to right, #ffa400, #fc2933);
+}
+
+@media (min-width: 750px) {
+  .header-buscador {
+    flex-direction: column;
+  }
+
+  .porciones-de-pizza-img {
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 320px) {
+  .header-buscador {
+    flex-direction: column;
+  }
+
+  .Buscador {
+    margin-left: 130px;
+  }
+
+  .porciones-de-pizza-img {
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-buscador {
+    flex-direction: row;
+  }
+
+  .porciones-de-pizza-img {
+    margin-top: 150px;
+  }
 }
